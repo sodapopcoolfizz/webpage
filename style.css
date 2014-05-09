@@ -1,26 +1,49 @@
-h1 {text-align: center;}
-h1 {font-family: sans-serif;}
+h1 {
+text-align: left;
+font-family: sans-serif;
+}
 
-p {text-align: justify;}
+p {
 
-ul {
+
+
+	text-align: justify;
+}
+
+.toplink ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	text-align: center;
 }
+
+body { text-align: center; margin: 5em 0 0 0; vertical-align: middle; background: #F2F2F3; font-family: 'Lora', serif;}
+#content { width: 760px; text-align: left; margin: 0 auto; padding-top: 1em }
 
 a:link,a:visited
 {
-width:240px;
-font-family: sans-serif;
+	width:240px;
+	font-family: sans-serif;
+	text-align:center;
 
-text-align:center;
-text-transform:uppercase;
 }
 
-li
+.toplink li
 {
 	display: inline;
+
+	padding: 4px;
+	
+}
+
+.toplink li a
+{
+	background: #1FDA9A;
+	border:1px solid #1FDA9A;
+	border-radius: 4px;
+	padding: 4px;
+	text-decoration: none;
+	color: #F2F2F3 ;
 }
 
